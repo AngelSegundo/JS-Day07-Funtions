@@ -84,5 +84,61 @@
 
 
 //-----------------------------------------------------------------//--- 10 ---//
+// FIGHT CLUB //
 
+let tyler = {
+    name: "Tyler",
+    HP: 100,
+    damage: 15,
+    attack: function (obj) {
+        return obj[damage]
+    }
+}
+
+let chuck = {
+    name: "Chuck",
+    HP: 80,
+    damage: 10,
+    // attack: function (obj) {
+    //     console.log(`${this.HP}`) 
+}
+
+tyler.attack(chuck)
+console.log(tyler.attack());
+
+// function prueba(obj){
+//     return obj.damage
+// }
+
+// console.log(prueba( chuck));
+
+// tyler.attack(chuck)
+// console.log(tyler.attack());
+// console.log(chuck.damage);
+
+
+
+
+
+
+
+
+// let chuck = {
+//     name: "Chuck",
+//     HP: 80,
+//     damage: 10,
+//     attack: function (obj1) {
+//         return [${this.HP} - obj1.damage]
+// }
+
+// console.log(tyler.HP);
+// console.log(chuck.damage);
+
+// console.log(tyler.HP - chuck.damage);
+
+// function attack(obj1, obj2) {
+//     return obj1.HP - obj2.damage
+// }
+
+// console.log(attack(tyler, chuck))
 

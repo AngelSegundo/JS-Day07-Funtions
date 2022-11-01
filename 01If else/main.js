@@ -14,7 +14,7 @@
 //             }
 // }
 
-// let num = prompt("Dime un número")
+// let num = prompt("Dime un número")*1
 // console.log(evenOdd(num));
 
 //-----------------------------------------------------------------//--- 02 ---//
@@ -127,12 +127,12 @@
 
 //-----------------------------------------------------------------//--- 07 ---//
 
-function numberOfDay(year, month) {
-    let d = new Date(year, month, 0);
-    return d.getDate();
-}
+// function numberOfDay(year, month) {
+//     let d = new Date(year, month, 0);
+//     return d.getDate();
+// }
 
-console.log(numberOfDay(2003,2))
+// console.log(numberOfDay(2004,2))
 
 
 

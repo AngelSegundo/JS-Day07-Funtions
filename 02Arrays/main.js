@@ -49,19 +49,19 @@
 
 // //--- 03 ---//
 //----------------------------------------------------------------------------------------------------------
-let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+// let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 // function dayChecker(arr, str) {
 //     if (!arr.includes(str)) {
-//         return 'Is not a weekday'
-//     }
-
-//     if (str.length > arr.indexOf(str)) {
-//         console.log(weekdays.reverse());
-//         return
-//     } else {
-//         return "No varía"
-//     }
+//         console.log('Is not a weekday');
+//         return 
+//     } else
+//         if (str.length > arr.indexOf(str)) {
+//             console.log(weekdays.reverse());
+//             return
+//         } else {
+//             return "No changes"
+//         }
 // }
 
 // dayChecker(weekdays, "Wednesday")
@@ -82,37 +82,37 @@ let weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturda
 //console.warn("//---3.2---//")
 //-------------------------------------------------------------------------------------------------------
 
-function includes(arr) {
-    if (arr.includes("Sunday")) {
-        return document.write("That's nice!")
-    } else {
-        document.write("Oh no!! ")
-        arr.push("Sunday")
-        console.log((arr));
-    }
-}
+// function includes(arr) {
+//     if (arr.includes("Sunday")) {
+//         return document.write("That's nice!")
+//     } else {
+//         document.write("Oh no!! ")
+//         arr.push("Sunday")
+//         console.log((arr));
+//     }
+// }
 
-includes(weekdays)
+// includes(weekdays)
 
 
 // //--- 4 ---//
 //-----------------------------------------------------------------------------------
-function flip(str1) {
-    console.log(str1.split("").reverse().join(""))
-    return
-}
+// function flip(str1) {
+//     console.log(str1.split("").reverse().join(""))
+//     return
+// }
 
-flip("Paralelepípedo")
+// flip("Paralelepípedo")
 
 
-// //--- 5 -- -//
-//----------------------------------------------------------------------------------
-function reverseArr(arr) {
-    console.log(weekdays.reverse());
-    return
-}
+// // //--- 5 -- -//
+// //----------------------------------------------------------------------------------
+// function reverseArr(arr) {
+//     console.log(weekdays.reverse());
+//     return
+// }
 
-reverseArr(weekdays)
+// reverseArr(weekdays)
 
 
 
